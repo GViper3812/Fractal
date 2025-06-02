@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638805196015047972
-    m_Hash: 3691626416
+      ticks: 638844899025924160
+    m_Hash: 2281361521
   m_LockFileStatus:
     m_FilePath: C:/Users/goone/Documents/GitHub/Fractal/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638805196015118895
-    m_Hash: 1637626190
+      ticks: 638844899025974317
+    m_Hash: 4104922904
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -208,6 +208,73 @@ m_ResolvedPackages:
     on every domain reload when Unity Version Control is not used, reducing the load
     time by ~200ms. .\\n- Fixed the create branch operation to work in Gluon mode
     which uses partial workspaces.\"}"
+  assetStore:
+    productId: 
+- packageId: com.unity.device-simulator.devices@1.0.0
+  testable: 0
+  isDirectDependency: 1
+  version: 1.0.0
+  source: 1
+  resolvedPath: C:\Users\goone\Documents\GitHub\Fractal\Library\PackageCache\com.unity.device-simulator.devices@1.0.0
+  assetPath: Packages/com.unity.device-simulator.devices
+  name: com.unity.device-simulator.devices
+  displayName: Device Simulator Devices
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: asset
+  description: This package contains additional devices for the Device Simulator.
+    Each device has a complete device definition and includes a device overlay. After
+    you install this package, the additional devices are immediately available in
+    the Device Simulator.
+  errors: []
+  versions:
+    all:
+    - 1.0.0-pre.1
+    - 1.0.0-pre.2
+    - 1.0.0-pre.4
+    - 1.0.0
+    compatible:
+    - 1.0.0
+    recommended: 1.0.0
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 637810555200000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.device-simulator.devices.git
+    revision: 2e1ffaaea0624daf91ee6c76906fd119dbd584c6
+    path: 
+  unityLifecycle:
+    version: 1.0.0
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
   assetStore:
     productId: 
 - packageId: com.unity.feature.2d@2.0.0
@@ -4014,6 +4081,8 @@ m_ResolvedPackages:
     - 10.1.3
     - 10.1.4
     - 10.2.0
+    - 11.0.0
+    - 12.0.0
     compatible:
     - 10.1.1
     - 10.1.2
@@ -4296,6 +4365,8 @@ m_ResolvedPackages:
     - 9.0.3
     - 10.0.0
     - 10.1.0
+    - 10.1.1
+    - 11.0.0
     compatible:
     - 9.0.3
     recommended: 9.0.3
@@ -4545,6 +4616,8 @@ m_ResolvedPackages:
     - 10.0.6
     - 10.0.7
     - 10.1.0
+    - 11.0.0
+    - 12.0.0
     compatible:
     - 10.0.4
     - 10.0.5
@@ -4780,6 +4853,8 @@ m_ResolvedPackages:
     - 4.1.0
     - 4.2.1
     - 4.3.0
+    - 4.3.1
+    - 5.0.0
     compatible:
     - 4.0.2
     recommended: 4.0.2
@@ -4890,6 +4965,8 @@ m_ResolvedPackages:
     - 1.2.2
     - 1.2.3
     - 1.2.4
+    - 1.2.5
+    - 2.0.0
     compatible:
     - 1.1.2
     - 1.1.3
@@ -5128,7 +5205,9 @@ m_ResolvedPackages:
     - 9.0.6
     - 9.0.7
     - 9.1.0
+    - 10.0.0
     - 11.0.0
+    - 11.0.1
     compatible:
     - 9.0.4
     - 9.0.5

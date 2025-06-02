@@ -28,7 +28,7 @@ const db = new sqlite3.Database('./userdata.db', (error) => {
             db.run(`
                 INSERT OR IGNORE INTO users (username, email, password)
                 VALUES (?, ?, ?)
-            `, ["Viper", "omarf.24@hotmail.com", "Delta3812"], function(err) {
+            `, ["viper", "omarf.24@hotmail.com", "Delta3812"], function(err) {
                 if (err) {
                     console.error('Insert error:', err.message);
                 } else if (this.changes === 0) {

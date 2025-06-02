@@ -8,15 +8,18 @@ const db = require('./database');
 app.use(cors());
 app.use(express.json());
 
-app.get('/login/:username', (req, res) => {
+app.get('/login/:username/:password', (req, res) => {
     const user = req.params.username
-    const sql = `SELECT * FROM users WHERE username = ?`;
-    db.get(sql, [user], (err, row) => {
+    const pass = req.params.password
+    const sql = `SELECT * FROM users WHERE username = ? and password = ?`;
+    db.get(sql, [user, pass], (err, row) => {
         if (err) {
-            return res.status(400).json({ error: err.message });
+            return res.status(400).send("Please fill all fields");
         }
-        res.json(row);
-
+        if (!row) {
+            return res.status(404).send("Invalid Credentials");
+        }
+        res.send("Login Confirmed");
     });
 });
 
