@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\goone\\Documents\\GitHub\\Fractal\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9B60D8AB-82C5-C276-FCB5-77C05CF9FCA1}|Assembly-CSharp.csproj|c:\\users\\goone\\documents\\github\\fractal\\assets\\script.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B60D8AB-82C5-C276-FCB5-77C05CF9FCA1}|Assembly-CSharp.csproj|solutionrelative:assets\\script.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9B60D8AB-82C5-C276-FCB5-77C05CF9FCA1}|Assembly-CSharp.csproj|c:\\users\\goone\\documents\\github\\fractal\\assets\\scripts\\loginmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B60D8AB-82C5-C276-FCB5-77C05CF9FCA1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\loginmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B60D8AB-82C5-C276-FCB5-77C05CF9FCA1}|Assembly-CSharp.csproj|C:\\Users\\goone\\Documents\\GitHub\\Fractal\\assets\\restclient\\demoscene\\scripts\\mainscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B60D8AB-82C5-C276-FCB5-77C05CF9FCA1}|Assembly-CSharp.csproj|solutionrelative:assets\\restclient\\demoscene\\scripts\\mainscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,15 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "script.cs",
-              "DocumentMoniker": "C:\\Users\\goone\\Documents\\GitHub\\Fractal\\Assets\\script.cs",
-              "RelativeDocumentMoniker": "Assets\\script.cs",
-              "ToolTip": "C:\\Users\\goone\\Documents\\GitHub\\Fractal\\Assets\\script.cs",
-              "RelativeToolTip": "Assets\\script.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "LoginManager.cs",
+              "DocumentMoniker": "C:\\Users\\goone\\Documents\\GitHub\\Fractal\\Assets\\Scripts\\LoginManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LoginManager.cs",
+              "ToolTip": "C:\\Users\\goone\\Documents\\GitHub\\Fractal\\Assets\\Scripts\\LoginManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LoginManager.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACAAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T17:23:50.668Z",
+              "WhenOpened": "2025-06-01T20:56:55.183Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainScript.cs",
+              "DocumentMoniker": "C:\\Users\\goone\\Documents\\GitHub\\Fractal\\Assets\\RestClient\\DemoScene\\Scripts\\MainScript.cs",
+              "RelativeDocumentMoniker": "Assets\\RestClient\\DemoScene\\Scripts\\MainScript.cs",
+              "ToolTip": "C:\\Users\\goone\\Documents\\GitHub\\Fractal\\Assets\\RestClient\\DemoScene\\Scripts\\MainScript.cs",
+              "RelativeToolTip": "Assets\\RestClient\\DemoScene\\Scripts\\MainScript.cs",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAIwAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T18:11:10.846Z"
             }
           ]
         }

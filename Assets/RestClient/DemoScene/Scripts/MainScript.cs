@@ -17,7 +17,7 @@ public class MainScript : MonoBehaviour {
 		Debug.Log(message);
 #endif
 	}
-
+	
 	public void Get(){
 
 		// We can add default request headers for all requests

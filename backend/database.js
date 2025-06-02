@@ -1,7 +1,6 @@
 const sqlite3 = require('sqlite3').verbose();
 let sql;
 
-
 // Connect to DB
 const db = new sqlite3.Database('./userdata.db', (error) => {
     if (error) {

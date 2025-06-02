@@ -1,9 +1,11 @@
 const express = require('express');
 const app = express();
+const cors = require('cors');
 const PORT = 3000;
 
 const db = require('./database');
 
+app.use(cors());
 app.use(express.json());
 
 app.get('/login/:username', (req, res) => {
@@ -14,7 +16,7 @@ app.get('/login/:username', (req, res) => {
             return res.status(400).json({ error: err.message });
         }
         res.json(row);
-        
+
     });
 });
 
