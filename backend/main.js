@@ -8,18 +8,41 @@ const db = require('./database');
 app.use(cors());
 app.use(express.json());
 
-app.get('/login/:username/:password', (req, res) => {
-    const user = req.params.username
-    const pass = req.params.password
+app.post('/login', (req, res) => {
+    const { username, password } = req.body;
+
+    if (!username || !password) {
+        return res.status(400).json({
+            success: false,
+            errorType: "missing_fields",
+            message: "Please fill all fields"
+        });
+    }
+
     const sql = `SELECT * FROM users WHERE username = ? and password = ?`;
-    db.get(sql, [user, pass], (err, row) => {
+    
+    db.get(sql, [username, password], (err, row) => {
         if (err) {
-            return res.status(400).send("Please fill all fields");
+            return res.status(500).json({
+                success: false,
+                errorType: "database_error",
+                message: "Server Error"
+            });
         }
+
         if (!row) {
-            return res.status(404).send("Invalid Credentials");
+            return res.status(404).json({
+                success: false,
+                errorType: "invalid_credentials",
+                message: "Invalid Credentials"
+            });
         }
-        res.send("Login Confirmed");
+
+        res.status(200).json({
+            success: true,
+            errorType: null,
+            message: "Login Confirmed"
+        });
     });
 });
 
