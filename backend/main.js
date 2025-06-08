@@ -12,7 +12,7 @@ const loginRoute = require('./function/login');
 const registerRoute = require('./function/register');
 
 app.use('/', loginRoute);
-app.use('/', registerRoute);
+app.use('/register', registerRoute);
 
 
 

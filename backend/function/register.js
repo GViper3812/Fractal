@@ -2,25 +2,25 @@ const express = require('express');
 const router = express.Router();
 const db = require('../database');
 
-router.post('/register', (req, res) => {
-    const { username, email, password } = req.body;
+router.post('/check', (req, res) => {
+    const { username, email } = req.body;
 
-    if (!username || !email || !password) {
+    if (!username || !email) {
         return res.status(400).json({
             success: false,
             errorType: "missing_fields",
-            message: "Please fill all fields"
+            message: "Please provide both username and email"
         });
     }
 
-    const selectSql = `SELECT username, email FROM users WHERE username = ? OR email = ?`;
+    const checkSql = `SELECT username, email FROM users WHERE username = ? OR email = ?`;
 
-    db.all(selectSql, [username, email], (err, rows) => {
+    db.all(checkSql, [username, email], (err, rows) => {
         if (err) {
             return res.status(500).json({
                 success: false,
                 errorType: "database_error",
-                message: "Server Error"
+                message: "Server error during check"
             });
         }
 
@@ -56,23 +56,32 @@ router.post('/register', (req, res) => {
             });
         }
 
-        const insertSql = `INSERT INTO users (username, email, password) VALUES (?, ?, ?)`;
+        res.status(200).json({
+            success: true,
+            errorType: null,
+            message: "Username and email are available"
+        });
+    });
+});
 
-        db.run(insertSql, [username, email, password], function (err) {
+router.post('/confirm', (req, res) => {
+    const { username, email, password } = req.body;
 
-            if (err) {
-                return res.status(500).json({
-                    success: false,
-                    errorType: "database_error",
-                    message: "Registration failed"
-                });
-            }
+    const insertSql = `INSERT INTO users (username, email, password) VALUES (?, ?, ?)`;
 
-            res.status(201).json({
-                success: true,
-                errorType: null,
-                message: "Registration confirmed"
+    db.run(insertSql, [username, email, password], function (err) {
+        if (err) {
+            return res.status(500).json({
+                success: false,
+                errorType: "database_error",
+                message: "Registration failed"
             });
+        }
+
+        res.status(201).json({
+            success: true,
+            errorType: null,
+            message: "Registration confirmed"
         });
     });
 });
