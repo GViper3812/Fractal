@@ -1,12 +1,10 @@
-using System.Collections;
-using System.Collections.Generic;
+using System;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class Timer : MonoBehaviour
 {
     private float timer = 2f;
-    private bool isTiming = false;
+    public bool isTiming = false;
 
     void Update()
     {
@@ -15,7 +13,8 @@ public class Timer : MonoBehaviour
             timer -= Time.deltaTime;
             if (timer <= 0f)
             {
-                stopTimer();
+                isTiming = false;
+                timer = 2f;
             }
         }
     }
@@ -23,11 +22,5 @@ public class Timer : MonoBehaviour
     public void startTimer()
     {
         isTiming = true;
-    }
-
-    public void stopTimer()
-    {
-        isTiming = false;
-        SceneManager.LoadScene("main");
     }
 }

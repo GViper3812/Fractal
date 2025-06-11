@@ -69,6 +69,10 @@ public class RegisterConfirm: MonoBehaviour
                         responseText.color = new Color32(0, 160, 0, 255);
                         responseText.text = response.message;
 
+                        Vector3 regPos = RegisterConfirmUI.transform.position;
+                        Vector3 mainPos = MainUI.transform.position;
+
+                        StartCoroutine(TimerStop());
                     }
                     else
                     {
@@ -91,6 +95,16 @@ public class RegisterConfirm: MonoBehaviour
         {
             responseText.text = "Please fill all fields";
         }
+    }
+
+    private IEnumerator TimerStop()
+    {
+        Vector3 regPos = RegisterConfirmUI.transform.position;
+        Vector3 mainPos = MainUI.transform.position;
+
+        yield return new WaitWhile(() => Timer.isTiming);
+
+        Camera.MoveTo(regPos, mainPos);
     }
 }
 
