@@ -24,8 +24,12 @@ public class RegisterCheck : MonoBehaviour
 
     [HideInInspector] public NextRequest next;
 
+    public RegisterConfirm RegConf;
+
     void Start()
     {
+        RegConf.Signal += Clear;
+
         nextButton.onClick.AddListener(NextRequest);
         backButton.onClick.AddListener(Back);
         RegisterConfirmUI.SetActive(false);
@@ -95,6 +99,15 @@ public class RegisterCheck : MonoBehaviour
         {
             responseText.text = "Please fill all fields";
         }
+    }
+
+    private void Clear()
+    {
+        responseText.text = string.Empty;
+        usernameInput.text = string.Empty;
+        emailInput.text = string.Empty;
+
+        responseText.color = new Color32(130, 0, 0, 255);
     }
 }
 

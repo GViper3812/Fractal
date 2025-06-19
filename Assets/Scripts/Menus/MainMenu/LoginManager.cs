@@ -68,9 +68,6 @@ public class LoginManager : MonoBehaviour
                         responseText.color = new Color32(0, 160, 0, 255);
                         responseText.text = response.message;
 
-                        Vector3 logPos = LoginUI.transform.position;
-                        Vector3 mainPos = MainUI.transform.position;
-
                         StartCoroutine(TimerStop());
                     }
                     else
@@ -104,6 +101,12 @@ public class LoginManager : MonoBehaviour
         yield return new WaitWhile(() => Timer.isTiming);
 
         Camera.MoveTo(logPos, mainPos);
+
+        responseText.text = string.Empty;
+        usernameInput.text = string.Empty;
+        passwordInput.text = string.Empty;
+
+        responseText.color = new Color32(130, 0, 0, 255);
     }
 }
 

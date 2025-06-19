@@ -1,9 +1,8 @@
-using System;
 using UnityEngine;
 
 public class Timer : MonoBehaviour
 {
-    private float timer = 2f;
+    private float timer = 1.2f;
     public bool isTiming = false;
 
     void Update()
@@ -14,7 +13,7 @@ public class Timer : MonoBehaviour
             if (timer <= 0f)
             {
                 isTiming = false;
-                timer = 2f;
+                timer = 1.2f;
             }
         }
     }

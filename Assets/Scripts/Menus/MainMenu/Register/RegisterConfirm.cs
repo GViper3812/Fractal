@@ -3,6 +3,7 @@ using UnityEngine.Networking;
 using TMPro;
 using System.Collections;
 using UnityEngine.UI;
+using System;
 
 public class RegisterConfirm: MonoBehaviour
 {
@@ -23,6 +24,8 @@ public class RegisterConfirm: MonoBehaviour
     public GameObject RegisterCheckUI;
     public GameObject RegisterConfirmUI;
     public GameObject MainUI;
+
+    public event Action Signal;
 
     void Start()
     {
@@ -105,6 +108,17 @@ public class RegisterConfirm: MonoBehaviour
         yield return new WaitWhile(() => Timer.isTiming);
 
         Camera.MoveTo(regPos, mainPos);
+
+        responseText.text = string.Empty;
+        passwordInput.text = string.Empty;
+        confirmInput.text = string.Empty;
+
+        responseText.color = new Color32(130, 0, 0, 255);
+
+        Signal.Invoke();
+
+        RegisterConfirmUI.SetActive(false);
+        RegisterCheckUI.SetActive(true);
     }
 }
 

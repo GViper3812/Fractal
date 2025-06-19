@@ -3,11 +3,27 @@
   "WorkspaceRootPath": "C:\\Users\\goone\\Documents\\GitHub\\Fractal\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9B60D8AB-82C5-C276-FCB5-77C05CF9FCA1}|Assembly-CSharp.csproj|c:\\users\\goone\\documents\\github\\fractal\\assets\\scripts\\menus\\mainmenu\\loginmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B60D8AB-82C5-C276-FCB5-77C05CF9FCA1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menus\\mainmenu\\loginmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9B60D8AB-82C5-C276-FCB5-77C05CF9FCA1}|Assembly-CSharp.csproj|c:\\users\\goone\\documents\\github\\fractal\\assets\\scripts\\game\\player\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B60D8AB-82C5-C276-FCB5-77C05CF9FCA1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\game\\player\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B60D8AB-82C5-C276-FCB5-77C05CF9FCA1}|Assembly-CSharp.csproj|c:\\users\\goone\\documents\\github\\fractal\\assets\\scripts\\menus\\mainmenu\\register\\registerconfirm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9B60D8AB-82C5-C276-FCB5-77C05CF9FCA1}|Assembly-CSharp.csproj|C:\\Users\\goone\\Documents\\GitHub\\Fractal\\assets\\scripts\\menus\\mainmenu\\general\\canvasautoscaler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B60D8AB-82C5-C276-FCB5-77C05CF9FCA1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menus\\mainmenu\\general\\canvasautoscaler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B60D8AB-82C5-C276-FCB5-77C05CF9FCA1}|Assembly-CSharp.csproj|C:\\Users\\goone\\Documents\\GitHub\\Fractal\\assets\\scripts\\menus\\mainmenu\\main\\beginmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B60D8AB-82C5-C276-FCB5-77C05CF9FCA1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menus\\mainmenu\\main\\beginmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B60D8AB-82C5-C276-FCB5-77C05CF9FCA1}|Assembly-CSharp.csproj|C:\\Users\\goone\\Documents\\GitHub\\Fractal\\assets\\scripts\\menus\\mainmenu\\main\\frontmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B60D8AB-82C5-C276-FCB5-77C05CF9FCA1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menus\\mainmenu\\main\\frontmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B60D8AB-82C5-C276-FCB5-77C05CF9FCA1}|Assembly-CSharp.csproj|C:\\Users\\goone\\Documents\\GitHub\\Fractal\\assets\\scripts\\menus\\mainmenu\\main\\mainmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B60D8AB-82C5-C276-FCB5-77C05CF9FCA1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menus\\mainmenu\\main\\mainmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B60D8AB-82C5-C276-FCB5-77C05CF9FCA1}|Assembly-CSharp.csproj|C:\\Users\\goone\\Documents\\GitHub\\Fractal\\assets\\scripts\\menus\\mainmenu\\register\\registerconfirm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9B60D8AB-82C5-C276-FCB5-77C05CF9FCA1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menus\\mainmenu\\register\\registerconfirm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -23,28 +39,75 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "LoginManager.cs",
-              "DocumentMoniker": "C:\\Users\\goone\\Documents\\GitHub\\Fractal\\Assets\\Scripts\\Menus\\MainMenu\\LoginManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Menus\\MainMenu\\LoginManager.cs",
-              "ToolTip": "C:\\Users\\goone\\Documents\\GitHub\\Fractal\\Assets\\Scripts\\Menus\\MainMenu\\LoginManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Menus\\MainMenu\\LoginManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Movement.cs",
+              "DocumentMoniker": "C:\\Users\\goone\\Documents\\GitHub\\Fractal\\Assets\\Scripts\\Game\\Player\\Movement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Game\\Player\\Movement.cs",
+              "ToolTip": "C:\\Users\\goone\\Documents\\GitHub\\Fractal\\Assets\\Scripts\\Game\\Player\\Movement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Game\\Player\\Movement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T19:36:09.619Z",
+              "WhenOpened": "2025-06-19T11:41:43.012Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "CanvasAutoScaler.cs",
+              "DocumentMoniker": "C:\\Users\\goone\\Documents\\GitHub\\Fractal\\Assets\\Scripts\\Menus\\MainMenu\\General\\CanvasAutoScaler.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Menus\\MainMenu\\General\\CanvasAutoScaler.cs",
+              "ToolTip": "C:\\Users\\goone\\Documents\\GitHub\\Fractal\\Assets\\Scripts\\Menus\\MainMenu\\General\\CanvasAutoScaler.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Menus\\MainMenu\\General\\CanvasAutoScaler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T21:01:51.788Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BeginManager.cs",
+              "DocumentMoniker": "C:\\Users\\goone\\Documents\\GitHub\\Fractal\\Assets\\Scripts\\Menus\\MainMenu\\Main\\BeginManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Menus\\MainMenu\\Main\\BeginManager.cs",
+              "ToolTip": "C:\\Users\\goone\\Documents\\GitHub\\Fractal\\Assets\\Scripts\\Menus\\MainMenu\\Main\\BeginManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Menus\\MainMenu\\Main\\BeginManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T20:46:43.219Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "RegisterConfirm.cs",
               "DocumentMoniker": "C:\\Users\\goone\\Documents\\GitHub\\Fractal\\Assets\\Scripts\\Menus\\MainMenu\\Register\\RegisterConfirm.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Menus\\MainMenu\\Register\\RegisterConfirm.cs",
               "ToolTip": "C:\\Users\\goone\\Documents\\GitHub\\Fractal\\Assets\\Scripts\\Menus\\MainMenu\\Register\\RegisterConfirm.cs",
               "RelativeToolTip": "Assets\\Scripts\\Menus\\MainMenu\\Register\\RegisterConfirm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAIwGYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T10:13:55.805Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-17T18:13:51.649Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainManager.cs",
+              "DocumentMoniker": "C:\\Users\\goone\\Documents\\GitHub\\Fractal\\Assets\\Scripts\\Menus\\MainMenu\\Main\\MainManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Menus\\MainMenu\\Main\\MainManager.cs",
+              "ToolTip": "C:\\Users\\goone\\Documents\\GitHub\\Fractal\\Assets\\Scripts\\Menus\\MainMenu\\Main\\MainManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Menus\\MainMenu\\Main\\MainManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T15:57:59.652Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FrontManager.cs",
+              "DocumentMoniker": "C:\\Users\\goone\\Documents\\GitHub\\Fractal\\Assets\\Scripts\\Menus\\MainMenu\\Main\\FrontManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Menus\\MainMenu\\Main\\FrontManager.cs",
+              "ToolTip": "C:\\Users\\goone\\Documents\\GitHub\\Fractal\\Assets\\Scripts\\Menus\\MainMenu\\Main\\FrontManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Menus\\MainMenu\\Main\\FrontManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T16:17:58.961Z"
             }
           ]
         }
