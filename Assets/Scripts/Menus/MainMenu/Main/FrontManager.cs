@@ -4,6 +4,7 @@ using UnityEngine.SceneManagement;
 
 public class FrontManager : MonoBehaviour
 {
+    [SerializeField] public SessionSO session;
     public Timer Timer;
 
     public MainManager MainMan;
@@ -38,6 +39,8 @@ public class FrontManager : MonoBehaviour
 
     public void Logout()
     {
+        session.Logout();
+
         Camera.MoveTo(MainUI.transform.position, LoginUI.transform.position);
     }
 
@@ -46,7 +49,7 @@ public class FrontManager : MonoBehaviour
         MainMan.SetButton(1, Begin);
         /* MainMan.SetButton(2, Continue);
         MainMan.SetButton(3, Options); */
-        MainMan.SetButton(4, Logout);
+        MainMan.SetButton(5, Logout);
     }
 
     private IEnumerator TimerStop()

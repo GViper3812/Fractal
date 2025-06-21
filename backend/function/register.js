@@ -81,7 +81,8 @@ router.post('/confirm', (req, res) => {
         res.status(201).json({
             success: true,
             errorType: null,
-            message: "Registration confirmed"
+            message: "Registration confirmed",
+            id: row.id
         });
     });
 });

@@ -10,7 +10,7 @@ public class Movement : MonoBehaviour
 
     void FixedUpdate()
     {
-        Vector2 inputDir = new Vector2(-joystick.Horizontal, -joystick.Vertical);
+        Vector2 inputDir = new Vector2(joystick.Horizontal, joystick.Vertical);
 
         if (inputDir.magnitude > 0.1f)
         {

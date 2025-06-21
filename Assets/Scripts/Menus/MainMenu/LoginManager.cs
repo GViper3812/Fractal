@@ -7,6 +7,7 @@ using UnityEngine.UI;
 public class LoginManager : MonoBehaviour
 {
     public string uri = "http://localhost:3000/login";
+    [SerializeField] private SessionSO session;
 
     public TMP_InputField usernameInput;
     public TMP_InputField passwordInput;
@@ -62,8 +63,10 @@ public class LoginManager : MonoBehaviour
                     string responseJson = request.downloadHandler.text;
                     LoginResponse response = JsonUtility.FromJson<LoginResponse>(responseJson);
 
-                    if (response.success)
+                    if (response.success == true)
                     {
+                        session.Login(response.id);
+
                         Timer.startTimer();
                         responseText.color = new Color32(0, 160, 0, 255);
                         responseText.text = response.message;
@@ -123,4 +126,5 @@ public class LoginResponse
     public bool success;
     public string errorType;
     public string message;
+    public int id;
 }

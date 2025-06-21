@@ -8,6 +8,7 @@ using System;
 public class RegisterConfirm: MonoBehaviour
 {
     public string uri = "http://localhost:3000/register/confirm";
+    [SerializeField] public SessionSO session;
 
     public RegisterCheck Check;
 
@@ -66,8 +67,10 @@ public class RegisterConfirm: MonoBehaviour
                     string responseJson = request.downloadHandler.text;
                     RegisterResponse response = JsonUtility.FromJson<RegisterResponse>(responseJson);
 
-                    if (response.success)
+                    if (response.success == true)
                     {
+                        session.Login(response.id);
+
                         Timer.startTimer();
                         responseText.color = new Color32(0, 160, 0, 255);
                         responseText.text = response.message;
@@ -136,4 +139,5 @@ public class RegisterResponse
     public bool success;
     public string errorType;
     public string message;
+    public int id;
 }

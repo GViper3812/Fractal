@@ -9,6 +9,7 @@ public class MainManager : MonoBehaviour
     public Button Btn2;
     public Button Btn3;
     public Button Btn4;
+    public Button Btn5;
 
     public Dictionary<int, Button> ButtonMap;
 
@@ -19,7 +20,8 @@ public class MainManager : MonoBehaviour
             { 1, Btn1 },
             { 2, Btn2 },
             { 3, Btn3 },
-            { 4, Btn4 }
+            { 4, Btn4 },
+            { 5, Btn5 }
         };
     }
 

@@ -5,6 +5,11 @@ public class CameraManager : MonoBehaviour
 {
     public float moveTime = 0.5f;
     private Coroutine moveCoroutine;
+    public GameObject MainUI;
+
+    public Camera Camera;
+
+    public SessionSO session;
 
     public void MoveTo(Vector3 fromPos, Vector3 toPos)
     {
@@ -33,5 +38,16 @@ public class CameraManager : MonoBehaviour
         }
 
         transform.position = end;
+    }
+
+    void Start()
+    {
+        if (session.LoggedIn == true)
+        {
+            Vector3 TopPos = new Vector3(MainUI.transform.position.x, MainUI.transform.position.y + (3f * Camera.orthographicSize), MainUI.transform.position.z);
+            
+
+            MoveTo(TopPos, MainUI.transform.position);
+        }
     }
 }
