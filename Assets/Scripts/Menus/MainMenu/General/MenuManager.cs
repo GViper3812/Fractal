@@ -17,7 +17,7 @@ public class MenuManager : MonoBehaviour
 
         MainMenuUI.anchoredPosition = new Vector2(MainMenuUI.anchoredPosition.x, height * 2);
 
-        RegisterCheckUI.anchoredPosition = new Vector2(width * 1.25f, RegisterCheckUI.anchoredPosition.y);
-        RegisterConfirmUI.anchoredPosition = new Vector2(width * 1.25f, RegisterConfirmUI.anchoredPosition.y);
+        RegisterCheckUI.anchoredPosition = new Vector2(width, RegisterCheckUI.anchoredPosition.y);
+        RegisterConfirmUI.anchoredPosition = new Vector2(width, RegisterConfirmUI.anchoredPosition.y);
     }
 }

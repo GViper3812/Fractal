@@ -1,14 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\goone\\Documents\\GitHub\\Fractal\\",
+  "WorkspaceRootPath": "D:\\GitHub\\Fractal\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9B60D8AB-82C5-C276-FCB5-77C05CF9FCA1}|Assembly-CSharp.csproj|c:\\users\\goone\\documents\\github\\fractal\\assets\\scripts\\menus\\mainmenu\\general\\cameramanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B60D8AB-82C5-C276-FCB5-77C05CF9FCA1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menus\\mainmenu\\general\\cameramanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9B60D8AB-82C5-C276-FCB5-77C05CF9FCA1}|Assembly-CSharp.csproj|d:\\github\\fractal\\assets\\scripts\\menus\\mainmenu\\general\\menumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B60D8AB-82C5-C276-FCB5-77C05CF9FCA1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menus\\mainmenu\\general\\menumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B60D8AB-82C5-C276-FCB5-77C05CF9FCA1}|Assembly-CSharp.csproj|c:\\users\\goone\\documents\\github\\fractal\\assets\\scripts\\menus\\mainmenu\\general\\canvasautoscaler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B60D8AB-82C5-C276-FCB5-77C05CF9FCA1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menus\\mainmenu\\general\\canvasautoscaler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9B60D8AB-82C5-C276-FCB5-77C05CF9FCA1}|Assembly-CSharp.csproj|D:\\GitHub\\Fractal\\assets\\scripts\\menus\\mainmenu\\general\\autoscaler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B60D8AB-82C5-C276-FCB5-77C05CF9FCA1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menus\\mainmenu\\general\\autoscaler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B60D8AB-82C5-C276-FCB5-77C05CF9FCA1}|Assembly-CSharp.csproj|D:\\GitHub\\Fractal\\assets\\scripts\\menus\\mainmenu\\general\\cameramanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B60D8AB-82C5-C276-FCB5-77C05CF9FCA1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menus\\mainmenu\\general\\cameramanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,33 +22,44 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CanvasAutoScaler.cs",
-              "DocumentMoniker": "C:\\Users\\goone\\Documents\\GitHub\\Fractal\\Assets\\Scripts\\Menus\\MainMenu\\General\\CanvasAutoScaler.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Menus\\MainMenu\\General\\CanvasAutoScaler.cs",
-              "ToolTip": "C:\\Users\\goone\\Documents\\GitHub\\Fractal\\Assets\\Scripts\\Menus\\MainMenu\\General\\CanvasAutoScaler.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Menus\\MainMenu\\General\\CanvasAutoScaler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAXAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "MenuManager.cs",
+              "DocumentMoniker": "D:\\GitHub\\Fractal\\Assets\\Scripts\\Menus\\MainMenu\\General\\MenuManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Menus\\MainMenu\\General\\MenuManager.cs",
+              "ToolTip": "D:\\GitHub\\Fractal\\Assets\\Scripts\\Menus\\MainMenu\\General\\MenuManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Menus\\MainMenu\\General\\MenuManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-21T20:41:45.34Z",
+              "WhenOpened": "2025-08-05T21:26:18.409Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CameraManager.cs",
-              "DocumentMoniker": "C:\\Users\\goone\\Documents\\GitHub\\Fractal\\Assets\\Scripts\\Menus\\MainMenu\\General\\CameraManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Menus\\MainMenu\\General\\CameraManager.cs",
-              "ToolTip": "C:\\Users\\goone\\Documents\\GitHub\\Fractal\\Assets\\Scripts\\Menus\\MainMenu\\General\\CameraManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Menus\\MainMenu\\General\\CameraManager.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAwwDEAAAA2AAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "AutoScaler.cs",
+              "DocumentMoniker": "D:\\GitHub\\Fractal\\Assets\\Scripts\\Menus\\MainMenu\\General\\AutoScaler.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Menus\\MainMenu\\General\\AutoScaler.cs",
+              "ToolTip": "D:\\GitHub\\Fractal\\Assets\\Scripts\\Menus\\MainMenu\\General\\AutoScaler.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Menus\\MainMenu\\General\\AutoScaler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-21T20:35:36.328Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-05T20:39:51.166Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CameraManager.cs",
+              "DocumentMoniker": "D:\\GitHub\\Fractal\\Assets\\Scripts\\Menus\\MainMenu\\General\\CameraManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Menus\\MainMenu\\General\\CameraManager.cs",
+              "ToolTip": "D:\\GitHub\\Fractal\\Assets\\Scripts\\Menus\\MainMenu\\General\\CameraManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Menus\\MainMenu\\General\\CameraManager.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwCQAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T20:35:36.328Z"
             }
           ]
         }

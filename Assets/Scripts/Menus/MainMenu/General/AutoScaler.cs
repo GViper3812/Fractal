@@ -3,14 +3,14 @@ using UnityEngine;
 public class CanvasManager : MonoBehaviour
 {
     public Camera mainCam;
+    public Canvas Canvas;
 
     void Start()
     {
-        float height = 1.673f * mainCam.orthographicSize;
+        float height = 1.677f * mainCam.orthographicSize;
         float width = height * mainCam.aspect;
 
-        RectTransform rt = GetComponent<RectTransform>();
+        RectTransform rt = Canvas.GetComponent<RectTransform>();
         rt.sizeDelta = new Vector2(width, height);
-        transform.position = mainCam.transform.position + mainCam.transform.forward * 1f;
     }
 }

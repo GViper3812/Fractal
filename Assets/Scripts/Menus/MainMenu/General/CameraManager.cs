@@ -32,12 +32,12 @@ public class CameraManager : MonoBehaviour
 
             t = t * t * (3f - 2f * t);
 
-            transform.position = Vector3.Lerp(start, end, t);
+            Camera.transform.position = Vector3.Lerp(start, end, t);
             elapsed += Time.deltaTime;
             yield return null;
         }
 
-        transform.position = end;
+        Camera.transform.position = end;
     }
 
     void Start()
@@ -45,7 +45,6 @@ public class CameraManager : MonoBehaviour
         if (session.LoggedIn == true)
         {
             Vector3 TopPos = new Vector3(MainUI.transform.position.x, MainUI.transform.position.y + (3f * Camera.orthographicSize), MainUI.transform.position.z);
-            
 
             MoveTo(TopPos, MainUI.transform.position);
         }

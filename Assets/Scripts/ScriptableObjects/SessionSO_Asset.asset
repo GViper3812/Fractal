@@ -12,3 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 640dcaddd89a8414cbbe23e649e6a314, type: 3}
   m_Name: SessionSO_Asset
   m_EditorClassIdentifier: 
+  ID: -1
+  LoggedIn: 0
+  onLogin:
+    m_PersistentCalls:
+      m_Calls: []
+  onLogout:
+    m_PersistentCalls:
+      m_Calls: []
