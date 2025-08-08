@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -29,6 +30,37 @@ public class DoorVisuals : MonoBehaviour
             Canvas.interactable = false;
         } else if (Dist < end) {
             Canvas.interactable = true;
+        }
+    }
+
+    public Image Image;
+    public float FadeTime = 0.6f;
+
+    public IEnumerator FadeOut()
+    {
+        float elapsed = 0f;
+        Color Col = Image.color;
+
+        while (elapsed < FadeTime)
+        {
+            Col.a = Mathf.Lerp(0, 1, elapsed / FadeTime);
+            Image.color = Col;
+            elapsed += Time.deltaTime;
+            yield return null;
+        }
+    }
+
+    public IEnumerator FadeIn()
+    {
+        float elapsed = 0f;
+        Color Col = Image.color;
+
+        while (elapsed < FadeTime)
+        {
+            Col.a = Mathf.Lerp(1, 0, elapsed / FadeTime);
+            Image.color = Col;
+            elapsed += Time.deltaTime;
+            yield return null;
         }
     }
 }

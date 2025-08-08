@@ -42,9 +42,9 @@ public class Movement : MonoBehaviour
             RB.drag = 0;
             RB.AddForce(Dir * Acceleration);
 
-            if (RB.velocity.magnitude > MaxSpeed)
+            if (RB.velocity.magnitude > 1000)
             {
-                RB.velocity = RB.velocity.normalized * MaxSpeed;
+                RB.velocity = RB.velocity.normalized * 1000;
             }
         }
         else

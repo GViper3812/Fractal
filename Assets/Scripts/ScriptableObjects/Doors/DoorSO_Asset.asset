@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fdda24df6347c924bbe32c3e34c912bc, type: 3}
   m_Name: DoorSO_Asset
   m_EditorClassIdentifier: 
-  lastDoorID: 
+  lastDoorID: D1

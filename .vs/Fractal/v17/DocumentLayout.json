@@ -7,12 +7,16 @@
       "RelativeMoniker": "D:0:0:{9B60D8AB-82C5-C276-FCB5-77C05CF9FCA1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\game\\doors\\doorlogicmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B60D8AB-82C5-C276-FCB5-77C05CF9FCA1}|Assembly-CSharp.csproj|d:\\github\\fractal\\assets\\scripts\\game\\doors\\doorvisualmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9B60D8AB-82C5-C276-FCB5-77C05CF9FCA1}|Assembly-CSharp.csproj|D:\\GitHub\\Fractal\\assets\\scripts\\game\\doors\\doorvisualmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9B60D8AB-82C5-C276-FCB5-77C05CF9FCA1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\game\\doors\\doorvisualmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|d:\\github\\fractal\\assets\\scripts\\game\\doors\\doormanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\scripts\\game\\doors\\doormanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9B60D8AB-82C5-C276-FCB5-77C05CF9FCA1}|Assembly-CSharp.csproj|D:\\GitHub\\Fractal\\assets\\scripts\\game\\player\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B60D8AB-82C5-C276-FCB5-77C05CF9FCA1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\game\\player\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B60D8AB-82C5-C276-FCB5-77C05CF9FCA1}|Assembly-CSharp.csproj|D:\\GitHub\\Fractal\\assets\\scripts\\game\\player\\joystickraycaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B60D8AB-82C5-C276-FCB5-77C05CF9FCA1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\game\\player\\joystickraycaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9B60D8AB-82C5-C276-FCB5-77C05CF9FCA1}|Assembly-CSharp.csproj|D:\\GitHub\\Fractal\\assets\\scripts\\scriptableobjects\\doors\\doorso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,14 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{9B60D8AB-82C5-C276-FCB5-77C05CF9FCA1}|Assembly-CSharp.csproj|D:\\GitHub\\Fractal\\assets\\scripts\\scriptableobjects\\session\\sessionso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9B60D8AB-82C5-C276-FCB5-77C05CF9FCA1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scriptableobjects\\session\\sessionso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B60D8AB-82C5-C276-FCB5-77C05CF9FCA1}|Assembly-CSharp.csproj|D:\\GitHub\\Fractal\\assets\\scripts\\game\\player\\joystickraycaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B60D8AB-82C5-C276-FCB5-77C05CF9FCA1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\game\\player\\joystickraycaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B60D8AB-82C5-C276-FCB5-77C05CF9FCA1}|Assembly-CSharp.csproj|D:\\GitHub\\Fractal\\assets\\scripts\\game\\player\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B60D8AB-82C5-C276-FCB5-77C05CF9FCA1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\game\\player\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -48,7 +44,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Game\\Doors\\DoorLogicManager.cs",
               "ToolTip": "D:\\GitHub\\Fractal\\Assets\\Scripts\\Game\\Doors\\DoorLogicManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\Game\\Doors\\DoorLogicManager.cs",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAowE8AAABFAAAAAAAAAA==",
+              "ViewState": "AgIAADkAAAAAAAAAAAAIwFkAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-08T18:38:22.336Z",
               "EditorCaption": ""
@@ -61,14 +57,13 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Game\\Doors\\DoorVisualManager.cs",
               "ToolTip": "D:\\GitHub\\Fractal\\Assets\\Scripts\\Game\\Doors\\DoorVisualManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\Game\\Doors\\DoorVisualManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAcwCQAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-08T18:38:21.699Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-08T18:38:21.699Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "DoorSO.cs",
               "DocumentMoniker": "D:\\GitHub\\Fractal\\Assets\\Scripts\\ScriptableObjects\\Doors\\DoorSO.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ScriptableObjects\\Doors\\DoorSO.cs",
@@ -81,43 +76,30 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "DoorManager.cs",
-              "DocumentMoniker": "D:\\GitHub\\Fractal\\Assets\\Scripts\\Game\\Doors\\DoorManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Game\\Doors\\DoorManager.cs",
-              "ToolTip": "D:\\GitHub\\Fractal\\Assets\\Scripts\\Game\\Doors\\DoorManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Game\\Doors\\DoorManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAowCIAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-07T08:44:50.072Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "Movement.cs",
               "DocumentMoniker": "D:\\GitHub\\Fractal\\Assets\\Scripts\\Game\\Player\\Movement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Game\\Player\\Movement.cs",
               "ToolTip": "D:\\GitHub\\Fractal\\Assets\\Scripts\\Game\\Player\\Movement.cs",
               "RelativeToolTip": "Assets\\Scripts\\Game\\Player\\Movement.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowC4AAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-08T15:58:02.495Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "JoystickRaycaster.cs",
               "DocumentMoniker": "D:\\GitHub\\Fractal\\Assets\\Scripts\\Game\\Player\\JoystickRaycaster.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Game\\Player\\JoystickRaycaster.cs",
               "ToolTip": "D:\\GitHub\\Fractal\\Assets\\Scripts\\Game\\Player\\JoystickRaycaster.cs",
               "RelativeToolTip": "Assets\\Scripts\\Game\\Player\\JoystickRaycaster.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwCYAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwBMAAABcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-08T14:50:55.945Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "SessionSO.cs",
               "DocumentMoniker": "D:\\GitHub\\Fractal\\Assets\\Scripts\\ScriptableObjects\\Session\\SessionSO.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ScriptableObjects\\Session\\SessionSO.cs",

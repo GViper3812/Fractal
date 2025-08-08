@@ -24,6 +24,8 @@ public class DoorLogic : MonoBehaviour
     GameObject Player;
 
     public string Scene;
+    public DoorVisuals DoorVis;
+    public GameObject UI;
 
     void Start()
     {
@@ -41,14 +43,12 @@ public class DoorLogic : MonoBehaviour
 
     public void Enter(bool isOn)
     {
-        if (isOn)
-        {
+        if (isOn) {
             DoorSO.lastDoorID = transform.parent.name;
 
             EnterCoroutine = StartCoroutine(ForceMovement(EnterPos, true));
 
-            if (Door != null)
-            {
+            if (Door != null) {
                 Door.enabled = false;
             }    
         } else if (EnterCoroutine != null) {
@@ -58,40 +58,49 @@ public class DoorLogic : MonoBehaviour
 
     public void Exit()
     {
-        if (!string.IsNullOrEmpty(DoorID))
-        {
+        if (!string.IsNullOrEmpty(DoorID)) {
             Player.transform.position = EnterPos;
 
-            ExitCoroutine = StartCoroutine(ForceMovement(ExitPos));
+            ExitCoroutine = StartCoroutine(ForceMovement(ExitPos, false));
 
-            if (Door != null)
-            {
+            if (Door != null) {
                 Door.enabled = false;
             }
-        }
-        else if (ExitCoroutine != null)
-        {
+        } else if (ExitCoroutine != null) {
             StopCoroutine(ExitCoroutine);
         }
     }
 
     IEnumerator ForceMovement(Vector2 Dest, bool LoadScene = false)
     {
-        while (Vector2.Distance(Player.transform.position, Dest) > 1)
-        {
-            Movement.ForcePos(Dest);
+        if (LoadScene == true) {
+            UI.SetActive(false);
 
-            yield return null;
-        }
+            Coroutine fade = StartCoroutine(DoorVis.FadeOut());
+            Coroutine move = StartCoroutine(MoveTo(Dest));
 
-        if (Door != null)
-        {
-            Door.enabled = true;
-        }
+            yield return fade;
+            yield return move;
 
-        if (Vector2.Distance(Player.transform.position, Dest) < 20 && LoadScene == true)
-        {
             SceneManager.LoadScene(Scene);
+        } else {
+            UI.SetActive(false);
+
+            Coroutine fade = StartCoroutine(DoorVis.FadeIn());
+            Coroutine move = StartCoroutine(MoveTo(Dest));
+
+            yield return fade;
+            yield return move;
+
+            UI.SetActive(true);
+        }
+    }
+
+    IEnumerator MoveTo(Vector2 Dest)
+    {
+        while (Vector2.Distance(Player.transform.position, Dest) > 1) {
+            Movement.ForcePos(Dest);
+            yield return null;
         }
     }
 }
