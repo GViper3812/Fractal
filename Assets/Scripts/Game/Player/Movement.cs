@@ -10,17 +10,42 @@ public class Movement : MonoBehaviour
 
     void FixedUpdate()
     {
-        Vector2 inputDir = new Vector2(joystick.Horizontal, joystick.Vertical);
+        Vector2 inputDir = new Vector2(joystick.Horizontal, joystick.Vertical).normalized;
 
-        if (inputDir.magnitude > 0.1f)
+        ForceDir(inputDir);
+    }
+
+    void ForceDir(Vector2 Dir)
+    {
+        if (Dir.magnitude > 0.1f)
         {
             RB.drag = 0;
-            RB.AddForce(inputDir.normalized * Acceleration);
+            RB.AddForce(Dir * Acceleration);
 
             if (RB.velocity.magnitude > MaxSpeed)
             {
                 RB.velocity = RB.velocity.normalized * MaxSpeed;
-            } 
+            }
+        }
+        else
+        {
+            RB.drag = 15;
+        }
+    }
+
+    public void ForcePos(Vector2 Pos)
+    {
+        Vector2 Dir = (Pos - RB.position).normalized;
+
+        if (Dir.magnitude > 0.1f)
+        {
+            RB.drag = 0;
+            RB.AddForce(Dir * Acceleration);
+
+            if (RB.velocity.magnitude > MaxSpeed)
+            {
+                RB.velocity = RB.velocity.normalized * MaxSpeed;
+            }
         }
         else
         {

@@ -2,11 +2,18 @@ using UnityEngine;
 
 public class JoystickRaycaster2D : MonoBehaviour
 {
+    GameObject Player;
+
     public FixedJoystick directionJoystick;
     public float rayDistance = 10000f;
     public LayerMask collisionLayers;
 
     public LineRenderer line;
+
+    void Start()
+    {
+        Player = GameObject.Find("Character");
+    }
 
     void Update()
     {
@@ -15,7 +22,7 @@ public class JoystickRaycaster2D : MonoBehaviour
         if (dir.magnitude > 0.1f)
         {
             dir.Normalize();
-            Vector2 origin = new Vector2(transform.position.x, transform.position.y - 100);
+            Vector2 origin = new Vector2(Player.transform.position.x, Player.transform.position.y);
             Vector2 endPoint = origin + dir * rayDistance;
 
             line.enabled = true;
@@ -30,7 +37,6 @@ public class JoystickRaycaster2D : MonoBehaviour
         }
         else
         {
-            // Hide line when joystick is idle
             line.enabled = false;
         }
     }

@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "D:\\GitHub\\Fractal\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9B60D8AB-82C5-C276-FCB5-77C05CF9FCA1}|Assembly-CSharp.csproj|d:\\github\\fractal\\assets\\scripts\\menus\\mainmenu\\general\\menumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B60D8AB-82C5-C276-FCB5-77C05CF9FCA1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menus\\mainmenu\\general\\menumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9B60D8AB-82C5-C276-FCB5-77C05CF9FCA1}|Assembly-CSharp.csproj|D:\\GitHub\\Fractal\\assets\\scripts\\game\\doors\\doormanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B60D8AB-82C5-C276-FCB5-77C05CF9FCA1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\game\\doors\\doormanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B60D8AB-82C5-C276-FCB5-77C05CF9FCA1}|Assembly-CSharp.csproj|d:\\github\\fractal\\assets\\scripts\\menus\\mainmenu\\general\\autoscaler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B60D8AB-82C5-C276-FCB5-77C05CF9FCA1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menus\\mainmenu\\general\\autoscaler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9B60D8AB-82C5-C276-FCB5-77C05CF9FCA1}|Assembly-CSharp.csproj|D:\\GitHub\\Fractal\\assets\\scripts\\game\\player\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B60D8AB-82C5-C276-FCB5-77C05CF9FCA1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\game\\player\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B60D8AB-82C5-C276-FCB5-77C05CF9FCA1}|Assembly-CSharp.csproj|d:\\github\\fractal\\assets\\scripts\\menus\\mainmenu\\general\\cameramanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B60D8AB-82C5-C276-FCB5-77C05CF9FCA1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menus\\mainmenu\\general\\cameramanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9B60D8AB-82C5-C276-FCB5-77C05CF9FCA1}|Assembly-CSharp.csproj|D:\\GitHub\\Fractal\\assets\\scripts\\game\\player\\joystickraycaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B60D8AB-82C5-C276-FCB5-77C05CF9FCA1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\game\\player\\joystickraycaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B60D8AB-82C5-C276-FCB5-77C05CF9FCA1}|Assembly-CSharp.csproj|D:\\GitHub\\Fractal\\assets\\scripts\\scriptableobjects\\session\\sessionso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B60D8AB-82C5-C276-FCB5-77C05CF9FCA1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scriptableobjects\\session\\sessionso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,41 +31,52 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MenuManager.cs",
-              "DocumentMoniker": "D:\\GitHub\\Fractal\\Assets\\Scripts\\Menus\\MainMenu\\General\\MenuManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Menus\\MainMenu\\General\\MenuManager.cs",
-              "ToolTip": "D:\\GitHub\\Fractal\\Assets\\Scripts\\Menus\\MainMenu\\General\\MenuManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Menus\\MainMenu\\General\\MenuManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABiAAAAAAAAAA==",
+              "Title": "DoorManager.cs",
+              "DocumentMoniker": "D:\\GitHub\\Fractal\\Assets\\Scripts\\Game\\Doors\\DoorManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Game\\Doors\\DoorManager.cs",
+              "ToolTip": "D:\\GitHub\\Fractal\\Assets\\Scripts\\Game\\Doors\\DoorManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Game\\Doors\\DoorManager.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAQwDMAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-05T21:26:18.409Z",
+              "WhenOpened": "2025-08-07T08:44:50.072Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AutoScaler.cs",
-              "DocumentMoniker": "D:\\GitHub\\Fractal\\Assets\\Scripts\\Menus\\MainMenu\\General\\AutoScaler.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Menus\\MainMenu\\General\\AutoScaler.cs",
-              "ToolTip": "D:\\GitHub\\Fractal\\Assets\\Scripts\\Menus\\MainMenu\\General\\AutoScaler.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Menus\\MainMenu\\General\\AutoScaler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAyAAAAAAAAAA==",
+              "Title": "Movement.cs",
+              "DocumentMoniker": "D:\\GitHub\\Fractal\\Assets\\Scripts\\Game\\Player\\Movement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Game\\Player\\Movement.cs",
+              "ToolTip": "D:\\GitHub\\Fractal\\Assets\\Scripts\\Game\\Player\\Movement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Game\\Player\\Movement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-05T20:39:51.166Z",
+              "WhenOpened": "2025-08-08T15:58:02.495Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "CameraManager.cs",
-              "DocumentMoniker": "D:\\GitHub\\Fractal\\Assets\\Scripts\\Menus\\MainMenu\\General\\CameraManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Menus\\MainMenu\\General\\CameraManager.cs",
-              "ToolTip": "D:\\GitHub\\Fractal\\Assets\\Scripts\\Menus\\MainMenu\\General\\CameraManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Menus\\MainMenu\\General\\CameraManager.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwCQAAAAeAAAAAAAAAA==",
+              "Title": "JoystickRaycaster.cs",
+              "DocumentMoniker": "D:\\GitHub\\Fractal\\Assets\\Scripts\\Game\\Player\\JoystickRaycaster.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Game\\Player\\JoystickRaycaster.cs",
+              "ToolTip": "D:\\GitHub\\Fractal\\Assets\\Scripts\\Game\\Player\\JoystickRaycaster.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Game\\Player\\JoystickRaycaster.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBgAAABjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-21T20:35:36.328Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-08T14:50:55.945Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SessionSO.cs",
+              "DocumentMoniker": "D:\\GitHub\\Fractal\\Assets\\Scripts\\ScriptableObjects\\Session\\SessionSO.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ScriptableObjects\\Session\\SessionSO.cs",
+              "ToolTip": "D:\\GitHub\\Fractal\\Assets\\Scripts\\ScriptableObjects\\Session\\SessionSO.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ScriptableObjects\\Session\\SessionSO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T08:31:05.893Z"
             }
           ]
         }
