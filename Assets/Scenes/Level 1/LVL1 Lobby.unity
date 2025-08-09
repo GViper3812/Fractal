@@ -1641,8 +1641,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1433813775}
-  - component: {fileID: 1433813776}
   - component: {fileID: 1433813777}
+  - component: {fileID: 1433813778}
   m_Layer: 0
   m_Name: DoorManager
   m_TagString: Untagged
@@ -1665,23 +1665,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1811947479}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1433813776
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1433813774}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 222c57af50a25e146a09d506f7271a53, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Canvas: {fileID: 1020489850}
-  start: 350
-  end: 300
-  Image: {fileID: 674216290}
-  FadeTime: 0.4
 --- !u!114 &1433813777
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1700,8 +1683,25 @@ MonoBehaviour:
   Toggle: {fileID: 824618316}
   DoorSO: {fileID: 11400000, guid: 1a7128ccf23d76940a45a7114c8677be, type: 2}
   Scene: LVL1 Entrance
-  DoorVis: {fileID: 1433813776}
+  DoorVis: {fileID: 1433813778}
   UI: {fileID: 1261073963}
+--- !u!114 &1433813778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1433813774}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a21be1fff12d3544a177c2a12a09b93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Canvas: {fileID: 1020489850}
+  start: 350
+  end: 300
+  Image: {fileID: 674216290}
+  FadeTime: 0.6
 --- !u!1 &1757983713
 GameObject:
   m_ObjectHideFlags: 0
