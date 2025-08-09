@@ -79,6 +79,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
+    <Compile Include="Assets\Scripts\Menus\MenuTransition\PositionRestore.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
     <Compile Include="Assets\Scripts\Menus\MainMenu\Shared\Timer.cs" />
     <Compile Include="Assets\Scripts\Game\Doors\Locked\LockedDoorVisualManager.cs" />
@@ -89,6 +90,8 @@
     <Compile Include="Assets\Joystick Pack\Scripts\Base\Joystick.cs" />
     <Compile Include="Assets\Scripts\ScriptableObjects\Player\Inventory\InventorySO.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
+    <Compile Include="Assets\Scripts\Menus\MenuTransition\MenuTransitionManager.cs" />
+    <Compile Include="Assets\Scripts\Menus\Inventory\InventoryUI.cs" />
     <Compile Include="Assets\Scripts\Menus\MainMenu\Main\FrontManager.cs" />
     <Compile Include="Assets\Scripts\ScriptableObjects\Doors\DoorSO.cs" />
     <Compile Include="Assets\Scripts\Menus\MainMenu\Main\OptionsManager.cs" />
@@ -124,6 +127,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
     <Compile Include="Assets\Scripts\Menus\MainMenu\Login\LoginManager.cs" />
     <Compile Include="Assets\Scripts\Game\Interact\Pickup\ItemVisualManager.cs" />
+    <Compile Include="Assets\Scripts\ScriptableObjects\Player\Inventory\MenuTransition.cs" />
     <Compile Include="Assets\Scripts\Game\Inventory\InventorySlot.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
   </ItemGroup>

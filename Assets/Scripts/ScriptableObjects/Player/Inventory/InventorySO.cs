@@ -1,5 +1,4 @@
 using System.Collections.Generic;
-using NUnit.Framework.Interfaces;
 using UnityEngine;
 
 [CreateAssetMenu]
@@ -42,10 +41,8 @@ public class InventorySO : ScriptableObject
 
         return true;
     }
-    public bool RemoveItem(ItemData itemToRemove, int amount = 1)
-    {
-        for (int i = items.Count - 1; i >= 0 && amount > 0; i--)
-        {
+    public bool RemoveItem(ItemData itemToRemove, int amount = 1) {
+        for (int i = items.Count - 1; i >= 0 && amount > 0; i--) {
             var slot = items[i];
             if (slot.item == itemToRemove)
             {

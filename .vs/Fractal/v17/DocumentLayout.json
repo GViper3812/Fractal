@@ -1,12 +1,88 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\GitHub\\Fractal\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9B60D8AB-82C5-C276-FCB5-77C05CF9FCA1}|Assembly-CSharp.csproj|d:\\github\\fractal\\assets\\scripts\\game\\doors\\unlocked\\doorlogicmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B60D8AB-82C5-C276-FCB5-77C05CF9FCA1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\game\\doors\\unlocked\\doorlogicmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B60D8AB-82C5-C276-FCB5-77C05CF9FCA1}|Assembly-CSharp.csproj|d:\\github\\fractal\\assets\\scripts\\menus\\menutransition\\positionrestore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B60D8AB-82C5-C276-FCB5-77C05CF9FCA1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menus\\menutransition\\positionrestore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B60D8AB-82C5-C276-FCB5-77C05CF9FCA1}|Assembly-CSharp.csproj|d:\\github\\fractal\\assets\\scripts\\menus\\menutransition\\menutransitionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B60D8AB-82C5-C276-FCB5-77C05CF9FCA1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menus\\menutransition\\menutransitionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B60D8AB-82C5-C276-FCB5-77C05CF9FCA1}|Assembly-CSharp.csproj|D:\\GitHub\\Fractal\\assets\\scripts\\scriptableobjects\\player\\inventory\\menutransition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B60D8AB-82C5-C276-FCB5-77C05CF9FCA1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scriptableobjects\\player\\inventory\\menutransition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DoorLogicManager.cs",
+              "DocumentMoniker": "D:\\GitHub\\Fractal\\Assets\\Scripts\\Game\\Doors\\Unlocked\\DoorLogicManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Game\\Doors\\Unlocked\\DoorLogicManager.cs",
+              "ToolTip": "D:\\GitHub\\Fractal\\Assets\\Scripts\\Game\\Doors\\Unlocked\\DoorLogicManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Game\\Doors\\Unlocked\\DoorLogicManager.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAWwEAAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T20:01:36.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MenuTransition.cs",
+              "DocumentMoniker": "D:\\GitHub\\Fractal\\Assets\\Scripts\\ScriptableObjects\\Player\\Inventory\\MenuTransition.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ScriptableObjects\\Player\\Inventory\\MenuTransition.cs",
+              "ToolTip": "D:\\GitHub\\Fractal\\Assets\\Scripts\\ScriptableObjects\\Player\\Inventory\\MenuTransition.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ScriptableObjects\\Player\\Inventory\\MenuTransition.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T19:14:29.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PositionRestore.cs",
+              "DocumentMoniker": "D:\\GitHub\\Fractal\\Assets\\Scripts\\Menus\\MenuTransition\\PositionRestore.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Menus\\MenuTransition\\PositionRestore.cs",
+              "ToolTip": "D:\\GitHub\\Fractal\\Assets\\Scripts\\Menus\\MenuTransition\\PositionRestore.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Menus\\MenuTransition\\PositionRestore.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T19:30:27.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MenuTransitionManager.cs",
+              "DocumentMoniker": "D:\\GitHub\\Fractal\\Assets\\Scripts\\Menus\\MenuTransition\\MenuTransitionManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Menus\\MenuTransition\\MenuTransitionManager.cs",
+              "ToolTip": "D:\\GitHub\\Fractal\\Assets\\Scripts\\Menus\\MenuTransition\\MenuTransitionManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Menus\\MenuTransition\\MenuTransitionManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T19:14:00.11Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
