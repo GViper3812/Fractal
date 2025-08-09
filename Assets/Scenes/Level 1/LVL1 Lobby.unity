@@ -859,6 +859,7 @@ GameObject:
   - component: {fileID: 683019007}
   - component: {fileID: 683019006}
   - component: {fileID: 683019005}
+  - component: {fileID: 683019008}
   m_Layer: 6
   m_Name: Player
   m_TagString: Untagged
@@ -1035,8 +1036,24 @@ MonoBehaviour:
   rayDistance: 10000
   collisionLayers:
     serializedVersion: 2
-    m_Bits: 55
+    m_Bits: 4294967295
   line: {fileID: 683019005}
+--- !u!114 &683019008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 683019002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06f0606f87677134c87655f712d2c75d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inventory: {fileID: 11400000, guid: 893701052bb1df949b53ace0d9168851, type: 2}
+  pistolAmmo: {fileID: 11400000, guid: 0b5176c943847bd4e9bd3f06998de4e4, type: 2}
+  patch: {fileID: 11400000, guid: 6cc0b6ec2fee0f641b1d1d766947fced, type: 2}
+  keycard: {fileID: 11400000, guid: 5b1616abe2a35bd47a12a9dd6eb5e3e8, type: 2}
 --- !u!1 &824618314
 GameObject:
   m_ObjectHideFlags: 0
@@ -1758,6 +1775,7 @@ MonoBehaviour:
   EnterMarker: {fileID: 86055717}
   ExitMarker: {fileID: 2015030015}
   Toggle: {fileID: 824618316}
+  TogCanv: {fileID: 1020489853}
   DoorSO: {fileID: 11400000, guid: 1a7128ccf23d76940a45a7114c8677be, type: 2}
   Scene: LVL1 Entrance
   DoorVis: {fileID: 1433813778}

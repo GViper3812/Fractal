@@ -15,7 +15,6 @@ public class LockedDoorManager : MonoBehaviour
 
     public Toggle Toggle;
     public Canvas Canvas;
-    private bool Dismissable = false;
 
     public void ShowMessage() {
         if (Toggle.isOn == true) {
@@ -30,11 +29,7 @@ public class LockedDoorManager : MonoBehaviour
         
         Text.text = NewText;
 
-        Dismissable = false;
-
         yield return new WaitForSeconds(0.4f);
-
-        Dismissable = true;
 
         while (!Input.GetMouseButtonDown(0)) {
             yield return null;

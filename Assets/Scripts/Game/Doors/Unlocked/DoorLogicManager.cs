@@ -10,6 +10,7 @@ public class DoorLogic : MonoBehaviour
     public GameObject ExitMarker;
 
     public Toggle Toggle;
+    public Canvas TogCanv;
 
     private string DoorID;
     public DoorSO DoorSO;
@@ -76,6 +77,8 @@ public class DoorLogic : MonoBehaviour
         if (LoadScene == true) {
             UI.SetActive(false);
 
+            TogCanv.enabled = false;
+
             Coroutine fade = StartCoroutine(DoorVis.FadeOut());
             Coroutine move = StartCoroutine(MoveTo(Dest));
 
@@ -86,6 +89,8 @@ public class DoorLogic : MonoBehaviour
         } else {
             UI.SetActive(false);
 
+            TogCanv.enabled = false;
+
             Coroutine fade = StartCoroutine(DoorVis.FadeIn());
             Coroutine move = StartCoroutine(MoveTo(Dest));
 
@@ -93,6 +98,8 @@ public class DoorLogic : MonoBehaviour
             yield return move;
 
             UI.SetActive(true);
+
+            TogCanv.enabled = true;
         }
     }
 

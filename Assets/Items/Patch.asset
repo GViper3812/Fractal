@@ -9,7 +9,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fdda24df6347c924bbe32c3e34c912bc, type: 3}
-  m_Name: DoorSO_Asset
+  m_Script: {fileID: 11500000, guid: 25562d6f1e1365548b2216d7110de5e5, type: 3}
+  m_Name: Patch
   m_EditorClassIdentifier: 
-  lastDoorID: 
+  itemName: Health
+  icon: {fileID: 8230488904728474184, guid: 85f320374d3422048868c38d01c2dd31, type: 3}
+  description: 
+  isStackable: 0
+  maxStack: 1

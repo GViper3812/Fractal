@@ -9,7 +9,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fdda24df6347c924bbe32c3e34c912bc, type: 3}
-  m_Name: DoorSO_Asset
+  m_Script: {fileID: 11500000, guid: 25562d6f1e1365548b2216d7110de5e5, type: 3}
+  m_Name: Bullets
   m_EditorClassIdentifier: 
-  lastDoorID: 
+  itemName: 9mm Bullets
+  icon: {fileID: 4319395737909131107, guid: 840e942fb6d238d46becafb15fc2ee47, type: 3}
+  description: 
+  isStackable: 1
+  maxStack: 20

@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "D:\\GitHub\\Fractal\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9B60D8AB-82C5-C276-FCB5-77C05CF9FCA1}|Assembly-CSharp.csproj|D:\\GitHub\\Fractal\\assets\\scripts\\game\\doors\\locked\\lockeddoormanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B60D8AB-82C5-C276-FCB5-77C05CF9FCA1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\game\\doors\\locked\\lockeddoormanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9B60D8AB-82C5-C276-FCB5-77C05CF9FCA1}|Assembly-CSharp.csproj|d:\\github\\fractal\\assets\\scripts\\game\\doors\\unlocked\\doorlogicmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B60D8AB-82C5-C276-FCB5-77C05CF9FCA1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\game\\doors\\unlocked\\doorlogicmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B60D8AB-82C5-C276-FCB5-77C05CF9FCA1}|Assembly-CSharp.csproj|d:\\github\\fractal\\assets\\scripts\\game\\doors\\locked\\lockeddoorvisualmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B60D8AB-82C5-C276-FCB5-77C05CF9FCA1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\game\\doors\\locked\\lockeddoorvisualmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9B60D8AB-82C5-C276-FCB5-77C05CF9FCA1}|Assembly-CSharp.csproj|d:\\github\\fractal\\assets\\scripts\\scriptableobjects\\player\\inventory\\inventoryso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B60D8AB-82C5-C276-FCB5-77C05CF9FCA1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scriptableobjects\\player\\inventory\\inventoryso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B60D8AB-82C5-C276-FCB5-77C05CF9FCA1}|Assembly-CSharp.csproj|D:\\GitHub\\Fractal\\assets\\scripts\\game\\inventory\\inventoryslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B60D8AB-82C5-C276-FCB5-77C05CF9FCA1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\game\\inventory\\inventoryslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B60D8AB-82C5-C276-FCB5-77C05CF9FCA1}|Assembly-CSharp.csproj|D:\\GitHub\\Fractal\\assets\\scripts\\scriptableobjects\\player\\inventory\\itemdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B60D8AB-82C5-C276-FCB5-77C05CF9FCA1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scriptableobjects\\player\\inventory\\itemdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B60D8AB-82C5-C276-FCB5-77C05CF9FCA1}|Assembly-CSharp.csproj|D:\\GitHub\\Fractal\\assets\\scripts\\game\\inventory\\inventorytester.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B60D8AB-82C5-C276-FCB5-77C05CF9FCA1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\game\\inventory\\inventorytester.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +30,68 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LockedDoorVisualManager.cs",
-              "DocumentMoniker": "D:\\GitHub\\Fractal\\Assets\\Scripts\\Game\\Doors\\Locked\\LockedDoorVisualManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Game\\Doors\\Locked\\LockedDoorVisualManager.cs",
-              "ToolTip": "D:\\GitHub\\Fractal\\Assets\\Scripts\\Game\\Doors\\Locked\\LockedDoorVisualManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Game\\Doors\\Locked\\LockedDoorVisualManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAgAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "DoorLogicManager.cs",
+              "DocumentMoniker": "D:\\GitHub\\Fractal\\Assets\\Scripts\\Game\\Doors\\Unlocked\\DoorLogicManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Game\\Doors\\Unlocked\\DoorLogicManager.cs",
+              "ToolTip": "D:\\GitHub\\Fractal\\Assets\\Scripts\\Game\\Doors\\Unlocked\\DoorLogicManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Game\\Doors\\Unlocked\\DoorLogicManager.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAwwGUAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-09T00:32:24.959Z",
+              "WhenOpened": "2025-08-09T12:40:34.073Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "LockedDoorManager.cs",
-              "DocumentMoniker": "D:\\GitHub\\Fractal\\Assets\\Scripts\\Game\\Doors\\Locked\\LockedDoorManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Game\\Doors\\Locked\\LockedDoorManager.cs",
-              "ToolTip": "D:\\GitHub\\Fractal\\Assets\\Scripts\\Game\\Doors\\Locked\\LockedDoorManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Game\\Doors\\Locked\\LockedDoorManager.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCwAAAAcAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "InventoryTester.cs",
+              "DocumentMoniker": "D:\\GitHub\\Fractal\\Assets\\Scripts\\Game\\Inventory\\InventoryTester.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Game\\Inventory\\InventoryTester.cs",
+              "ToolTip": "D:\\GitHub\\Fractal\\Assets\\Scripts\\Game\\Inventory\\InventoryTester.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Game\\Inventory\\InventoryTester.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-08T23:12:08.164Z",
+              "WhenOpened": "2025-08-09T12:25:53.563Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ItemData.cs",
+              "DocumentMoniker": "D:\\GitHub\\Fractal\\Assets\\Scripts\\ScriptableObjects\\Player\\Inventory\\ItemData.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ScriptableObjects\\Player\\Inventory\\ItemData.cs",
+              "ToolTip": "D:\\GitHub\\Fractal\\Assets\\Scripts\\ScriptableObjects\\Player\\Inventory\\ItemData.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ScriptableObjects\\Player\\Inventory\\ItemData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T11:12:42.05Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InventorySlot.cs",
+              "DocumentMoniker": "D:\\GitHub\\Fractal\\Assets\\Scripts\\Game\\Inventory\\InventorySlot.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Game\\Inventory\\InventorySlot.cs",
+              "ToolTip": "D:\\GitHub\\Fractal\\Assets\\Scripts\\Game\\Inventory\\InventorySlot.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Game\\Inventory\\InventorySlot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T11:11:44.901Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "InventorySO.cs",
+              "DocumentMoniker": "D:\\GitHub\\Fractal\\Assets\\Scripts\\ScriptableObjects\\Player\\Inventory\\InventorySO.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ScriptableObjects\\Player\\Inventory\\InventorySO.cs",
+              "ToolTip": "D:\\GitHub\\Fractal\\Assets\\Scripts\\ScriptableObjects\\Player\\Inventory\\InventorySO.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ScriptableObjects\\Player\\Inventory\\InventorySO.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAgwCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T10:58:30.91Z",
               "EditorCaption": ""
             }
           ]
