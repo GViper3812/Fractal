@@ -64,12 +64,11 @@ public class DoorLogic : MonoBehaviour
 
             ExitCoroutine = StartCoroutine(ForceMovement(ExitPos, false));
 
-            if (Door != null) {
-                Door.enabled = false;
-            }
         } else if (ExitCoroutine != null) {
             StopCoroutine(ExitCoroutine);
         }
+
+        
     }
 
     IEnumerator ForceMovement(Vector2 Dest, bool LoadScene = false)
@@ -90,6 +89,7 @@ public class DoorLogic : MonoBehaviour
             UI.SetActive(false);
 
             TogCanv.enabled = false;
+            Door.enabled = false;
 
             Coroutine fade = StartCoroutine(DoorVis.FadeIn());
             Coroutine move = StartCoroutine(MoveTo(Dest));
@@ -100,6 +100,7 @@ public class DoorLogic : MonoBehaviour
             UI.SetActive(true);
 
             TogCanv.enabled = true;
+            Door.enabled = true;
         }
     }
 
